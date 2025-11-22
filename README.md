@@ -1,14 +1,21 @@
 🏎️ F1 Information Application (F1 정보 어플리케이션)
 C# Windows Forms(WinForms)를 기반으로 제작된 2025 시즌 포뮬러 1(F1) 정보 조회, 굿즈 스토어, 그리고 경기 티켓 예매를 체험할 수 있는 어플리케이션입니다.
 
+
+
 📅 프로젝트 개요 (Project Overview)
 이 프로젝트는 F1 팬들을 위해 2025년 시즌 정보를 제공하고, 팀별 굿즈 구매와 그랑프리 티켓 예매 과정을 시뮬레이션할 수 있는 키오스크 형태의 프로그램입니다.
+
+
 
 개발 언어: C#
 
 프레임워크: .NET Windows Forms
 
 개발 도구: Visual Studio
+
+
+
 
 ✨ 주요 기능 (Key Features)
 1. 2025 시즌 경기 일정 및 결과 조회
@@ -34,6 +41,9 @@ C# Windows Forms(WinForms)를 기반으로 제작된 2025 시즌 포뮬러 1(F1)
 
 최종 결제: 선택한 정보(좌석, 결제 수단, 금액)를 종합하여 결제를 완료합니다.
 
+
+
+
 📂 소스 코드 구조 (Source Code Structure)
 Program.cs: 어플리케이션의 진입점(Entry Point)입니다.
 
@@ -48,6 +58,10 @@ Form14.cs (Login): 티켓 예매를 위한 로그인 화면입니다. 지정된 
 Form13.cs (Ticket & Payment): 좌석 선택, 금액 계산, 결제 수단 선택 등 예매의 전반적인 로직을 담당합니다.
 
 Form_Ferrari.cs, Form_will.cs, Form_mercedes.cs: 각 팀별 개별 스토어 화면입니다.
+
+
+
+
 
 ⚠️ 주의사항 (Note)
 이미지 경로: 코드 내 이미지 경로가 로컬 절대 경로(C:\김주엽\...)로 설정되어 있어, 실행 환경에 따라 이미지가 보이지 않을 수 있습니다. 해당 경로를 수정하거나 리소스 폴더를 생성하여 상대 경로로 변경하는 것을 권장합니다.
